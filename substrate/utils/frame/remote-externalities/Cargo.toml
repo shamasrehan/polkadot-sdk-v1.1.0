@@ -25,7 +25,7 @@ substrate-rpc-client = { path = "../rpc/client" }
 futures = "0.3"
 async-recursion = "1.0.4"
 indicatif = "0.17.3"
-spinners = "4.1.0"
+spinners = "4.1.1"
 tokio-retry = "0.3.0"
 
 [dev-dependencies]
