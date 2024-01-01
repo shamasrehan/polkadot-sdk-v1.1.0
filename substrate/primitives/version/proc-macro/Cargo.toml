@@ -18,8 +18,8 @@ proc-macro = true
 [dependencies]
 codec = { package = "parity-scale-codec", version = "3.6.1", features = [ "derive" ] }
 proc-macro2 = "1.0.56"
-quote = "1.0.28"
-syn = { version = "2.0.31", features = ["full", "fold", "extra-traits", "visit"] }
+quote = "1.0.34"
+syn = { version = "2.0.32", features = ["full", "fold", "extra-traits", "visit"] }
 
 [dev-dependencies]
 sp-version = { path = ".." }
